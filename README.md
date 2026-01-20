@@ -6,7 +6,6 @@ A Retrieval-Augmented Generation (RAG) agent for the Apukone platform. This agen
 
 - **Node.js**: v18 or higher
 - **Ollama**: Running locally (default URL: `http://localhost:11434`)
-- **Apukone Backend**: Running locally (default URL: `http://localhost:8081`)
 
 ## Setup
 
@@ -16,7 +15,7 @@ A Retrieval-Augmented Generation (RAG) agent for the Apukone platform. This agen
     ```
 
 2.  **Configure Environment**:
-    Copy `.env.example` (if available) or create a `.env` file with:
+    Copy `.env.example` or create a `.env` file with:
     ```properties
     HOST=http://localhost:8081
     TOKEN=your-agent-token
