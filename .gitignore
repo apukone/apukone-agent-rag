@@ -1,0 +1,7 @@
+node_modules
+dist
+.env
+data/lancedb
+data/documents/*.md
+!data/documents/intro.md
+.DS_Store

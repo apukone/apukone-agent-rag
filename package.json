@@ -1,0 +1,31 @@
+{
+    "name": "apukone-rag-agent",
+    "version": "1.0.0",
+    "description": "Agent that demonstrates RAG capabilities using Apukone and MCP",
+    "main": "dist/index.js",
+    "type": "module",
+    "scripts": {
+        "start": "tsx src/index.ts",
+        "ingest": "tsx src/ingest.ts",
+        "build": "tsc",
+        "test": "tsx test/test-agent.ts"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "@apukone/client": "0.0.3",
+        "@modelcontextprotocol/sdk": "^1.6.1",
+        "@types/uuid": "^10.0.0",
+        "dotenv": "^16.4.7",
+        "ollama": "^0.5.14",
+        "uuid": "^13.0.0",
+        "vectordb": "^0.4.5",
+        "zod": "^3.24.2"
+    },
+    "devDependencies": {
+        "@types/node": "^22.13.10",
+        "tsx": "^4.19.3",
+        "typescript": "^5.8.2"
+    }
+}
